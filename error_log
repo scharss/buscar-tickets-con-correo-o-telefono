@@ -1,0 +1,5 @@
+[14-Jul-2024 19:43:28 America/Bogota] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'root'@'localhost' (using password: NO) in /home2/buynowco/public_html/buscar/fetch_tickets.php:17
+Stack trace:
+#0 /home2/buynowco/public_html/buscar/fetch_tickets.php(17): mysqli->__construct('localhost', 'root', Object(SensitiveParameterValue), 'gestion_ventas')
+#1 {main}
+  thrown in /home2/buynowco/public_html/buscar/fetch_tickets.php on line 17
